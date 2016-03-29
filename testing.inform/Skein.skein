@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x224b440" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x7f6a980c9640"/>
+  <item nodeId="node-0x224b440">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+You are once again lost in a jungle far from home. You are ready to give up and go home, disappointed in yet another failed archaeological expedition. Just as you decide to turn back to camp, you suddenly stumble upon something...
+testing
+An Interactive Fiction by Till Meyer-Arlt
+Release 1 / Serial number 160314 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Forest
+You stand in a clearing in the deep jungle. Obscured by centuries of overgrowth and dim sunlight is a ruined temple of some sort. Whatever details there may have been on the stone blocks have long since been worn away. There is a single, solitary entryway leading downward.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x224b5c0"/>
+      <child nodeId="node-0x7f6a980c94c0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x224b5c0">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x224b740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x224b740">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x7f6a980c94c0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+House
+The House... AHHHH
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x7f6a980c9640"/>
+    </children>
+  </item>
+  <item nodeId="node-0x7f6a980c9640">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Forest
+You stand in a clearing in the deep jungle. Obscured by centuries of overgrowth and dim sunlight is a ruined temple of some sort. Whatever details there may have been on the stone blocks have long since been worn away. There is a single, solitary entryway leading downward.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>
