@@ -228,7 +228,6 @@ Durchgang is a void.
 hallway0_w1 is west of Durchgang.
 
 
-
-hallway0_e1 is a hallway. "TODO"
+hallway0_e1 is a hallway. "Changes!"
 
 hallway0_e1 is east of Durchgang.
