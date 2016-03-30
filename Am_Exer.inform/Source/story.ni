@@ -220,3 +220,15 @@ hallway0_w13 is north of hallway0_w12.
 hallway0_w14 is north of hallway0_w13.
 
 hallway0_w15 is north of hallway0_w14.
+
+
+[-- Cedrics Teil --]
+Durchgang is a void.
+
+hallway0_w1 is west of Durchgang.
+
+
+
+hallway0_e1 is a hallway. "TODO"
+
+hallway0_e1 is east of Durchgang.
