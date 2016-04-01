@@ -37,8 +37,8 @@ Hallway0_w1 is a hallway. "south: 051 Labor [line break]north: Treppe EG";
 Treppe0_w1 is north of Hallway0_w1.
 
 
-[- section 2 -]
 WC0_w1 is a restroom. "WC (m)"
+[- section 2 -]
 
 Hallway0_w2 is a hallway. "north: WC m"
 
@@ -231,3 +231,216 @@ hallway0_w1 is west of Durchgang.
 hallway0_e1 is a hallway. "Changes!"
 
 hallway0_e1 is east of Durchgang.
+
+[-- Garrelts Teil --]
+
+[- ----------------------2 OG ----------------------- -]
+
+[- section 1 -]
+Raum 252 is a room.
+
+Treppe2_w1 is a stairway.
+
+Lernbereich is a room.
+
+Hallway2_w1 is a hallway. "west: Raum 252 [line break]north: Treppe 2 OG [line break]east: Lernbereich";
+
+Raum 252 is west of Hallway2_w1.
+
+Treppe2_w1 is north of Hallway2_w1.
+
+Lernbereich is east of Hallway2_w1.
+
+[- section 2 -]
+Raum 224 is a room.
+
+Hallway2_e1 is a hallway. "west: Lernbereich [line break]north: Hallway [line break]east: Room 224";
+
+Raum 224 is east of Hallway2_e1.
+
+Hallway2_e1 is east of Lernbereich.
+
+[- section 3 -]
+Treppe2_e1 is a stairway.
+
+Raum 223 is a room.
+
+Hallway2_e2 is a hallway. "north: Treppe2_e1 [line break]east: Room 223";
+
+Raum 223 is east of Hallway2_e2.
+
+Treppe2_e1 is north of Hallway2_e2.
+
+[- section 4 -]
+WC2_e1 is a restroom.
+
+Raum 210 is a room.
+
+Hallway2_e3 is a hallway. "";
+
+Raum223 is west of Hallway2_e3.
+
+Raum 210 is south of Hallway2_e3.
+
+WC2_e1 is north of Hallway2_e3.
+
+[- section 5 -]
+Raum 209 is a room.
+
+Raum 208 is a room.
+
+Hallway2_e4 is a hallway. "";
+
+Raum 209 is south of Hallway2_e4.
+
+Raum 208 is east of Hallway2_e4.
+
+[- section 6 -]
+Raum 213 is a room.
+
+Raum 207 is a room.
+
+Hallway2_e5 is a hallway. "";
+
+Raum 213 is west of Hallway2_e5.
+
+Raum 207 is east of Hallway2_e5.
+
+[- section 7 -]
+Raum 214 is a room.
+
+Raum 206 is a room.
+
+Hallway2_e6 is a hallway. "";
+
+Raum 214 is west of Hallway2_e6.
+
+Raum 206 is east of Hallway2_e6.
+
+[- section 8 -]
+Raum 215 is a room.
+
+Raum 205 is a room.
+
+Hallway2_e7 is a hallway. "";
+
+Raum 215 is west of Hallway2_e7.
+
+Raum 205 is east of Hallway2_e7.
+
+[- section 9 -]
+Treppe2_e2 is a stairway.
+
+Hallway2_e8 is a hallway. "";
+
+Treppe2_e2 is west of Hallway2_e8.
+
+[- section 10 -]
+Raum 201 is a room.
+
+Raum 204 is a room.
+
+Raum 203 is a room.
+
+Hallway2_e9 is a hallway. "";
+
+Raum 201 is west of Hallway2_e9.
+
+Raum 204 is east of Hallway2_e9.
+
+Raum 203 is north of Hallway2_e9.
+
+[- combine sections -]
+
+Hallway2_e2 is north of Hallway2_e1.
+Hallway2_e4 is east of Hallway2_e3.
+Hallway2_e5 is north of Hallway2_e4.
+Hallway2_e6 is north of Hallway2_e5.
+Hallway2_e7 is north of Hallway2_e6.
+Hallway2_e8 is north of Hallway2_e7.
+Hallway2_e9 is north of Hallway2_e8.
+
+[- ----------------------1 OG ----------------------- -]
+
+[- section 1 -]
+Raum 135 is a room.
+
+Raum 134 is a room.
+
+Hallway1_w1 is a hallway. "";
+
+Raum 135 is north of Hallway1_w1.
+
+Raum 134 is south of Hallway1_w1.
+
+[- section 2 -]
+Treppe1_w1 is a stairway.
+
+Hallway1_w2 is a hallway. "";
+
+Treppe1_w1 is north of Hallway1_w1.
+
+[- section 3 -]
+WC1_w1 is a restroom.
+
+Labor 151 is a lab.
+
+Hallway1_w3 is a hallway. "";
+
+WC1_w1 is north of Hallway1_w3.
+
+Labor 151 is south of Hallway1_w3.
+
+[- section 4 -]
+Raum 158 is a room.
+
+Raum 152 is a room.
+
+Hallway1_w4 is a hallway. "";
+
+Raum 158 is north of Hallway1_w4.
+
+Raum 152 is south of Hallway1_w4.
+
+[- section 5 -]
+Raum 157 is a room.
+
+Hallway1_w5 is a hallway. "";
+
+Raum 157 is north of Hallway1_w5.
+
+Raum 152 is south of Hallway1_w5.
+
+[- section 6 -]
+Raum 156 is a room.
+
+Raum 152 is a room.
+
+Hallway1_w6 is a hallway. "";
+
+Raum 156 is north of Hallway1_w6.
+
+Raum 153 is south of Hallway1_w6.
+
+[- section 7 -]
+Raum 154 is a room.
+
+Hallway1_w7 is a hallway. "";
+
+Raum 154 is south of Hallway1_w7.
+
+[- section 8 -]
+Labor 155 is a lab.
+
+Hallway1_w8 is a hallway. "";
+
+Labor 155 is south of Hallway1_w8.
+
+[- combine sections -]
+Hallway1_w2 is west of Hallway1_w1.
+Hallway1_w3 is west of Hallway1_w2.
+Hallway1_w4 is west of Hallway1_w3.
+Hallway1_w5 is west of Hallway1_w4.
+Hallway1_w6 is west of Hallway1_w5.
+Hallway1_w7 is west of Hallway1_w6.
+Hallway1_w8 is west of Hallway1_w7.

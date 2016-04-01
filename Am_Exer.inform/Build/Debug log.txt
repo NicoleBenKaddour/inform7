@@ -1,5 +1,5 @@
 Debugging log of Inform 7
-Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -internal C:\Program Files (x86)\Inform 7\Internal -project C:\Users\Youta\Documents\Inform\Projects\inform7\Am_Exer.inform -format=ulx
+Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -internal C:\Program Files (x86)\Inform 7\Internal -project C:\Users\GarreltBecker\Documents\Inform\Projects\inform7\Am_Exer.inform -format=ulx
 Found language bundle 'English' (built in)
 Found language bundle 'French' (built in)
 Found language bundle 'German' (built in)
@@ -14,7 +14,7 @@ Reading language definition from <C:\Program Files (x86)\Inform 7\Internal\Langu
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 654 words long.
+I've now read your source text, which is 955 words long.
 
 
 -----------------------------------------------------
@@ -175,7 +175,7 @@ Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
 Total of 102 files written as streams.
-CPU time: 376 centiseconds
+CPU time: 1504 centiseconds
 
 
 That concludes the debugging log from this run of Inform.

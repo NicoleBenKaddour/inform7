@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0x03112830" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x02B040A0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x03112830"/>
-  <item nodeId="node-0x03112830">
+  <activeNode nodeId="node-0x02B040A0"/>
+  <item nodeId="node-0x02B040A0">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">&#x000A;&#x000A;&#x000A;Am_Exer&#x000A;An Interactive Fiction by Gruppe1&#x000A;Release 1 / Serial number 160330 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;051 Labor&#x000A;Ein Labor. &#x000A;Hier finden spannende Versuche statt.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Am_Exer&#x000A;An Interactive Fiction by Gruppe1&#x000A;Release 1 / Serial number 160401 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;051 Labor&#x000A;Ein Labor. &#x000A;Hier finden spannende Versuche statt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x031129A8"/>
-      <child nodeId="node-0x031043B0"/>
-      <child nodeId="node-0x0310EDA8"/>
-      <child nodeId="node-0x0310F208"/>
+      <child nodeId="node-0x02B04880"/>
+      <child nodeId="node-0x02B04AB0"/>
+      <child nodeId="node-0x02B107B8"/>
+      <child nodeId="node-0x02B10048"/>
     </children>
   </item>
-  <item nodeId="node-0x031129A8">
+  <item nodeId="node-0x02B04880">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">&#x000A;Hallway0_w1&#x000A;south: 051 Labor &#x000A;north: Treppe EG_w&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -24,11 +24,11 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x03112A18"/>
-      <child nodeId="node-0x031131C0"/>
+      <child nodeId="node-0x02B048F0"/>
+      <child nodeId="node-0x02B04A40"/>
     </children>
   </item>
-  <item nodeId="node-0x03112A18">
+  <item nodeId="node-0x02B048F0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -36,10 +36,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x03113088"/>
+      <child nodeId="node-0x02B04960"/>
     </children>
   </item>
-  <item nodeId="node-0x03113088">
+  <item nodeId="node-0x02B04960">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">&#x000A;WC&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -47,10 +47,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x031130F8"/>
+      <child nodeId="node-0x02B049D0"/>
     </children>
   </item>
-  <item nodeId="node-0x031130F8">
+  <item nodeId="node-0x02B049D0">
     <command xml:space="preserve">urinate</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -58,7 +58,7 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x031131C0">
+  <item nodeId="node-0x02B04A40">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">&#x000A;051 Labor&#x000A;Ein Labor. &#x000A;Irre!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -66,31 +66,32 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x031043B0">
+  <item nodeId="node-0x02B04AB0">
     <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">&#x000A;Hallway0_w1&#x000A;south: 051 Labor &#x000A;north: Treppe EG_w&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x03104420"/>
-      <child nodeId="node-0x031046D0"/>
+      <child nodeId="node-0x02B04B20"/>
+      <child nodeId="node-0x02B0FFB0"/>
     </children>
   </item>
-  <item nodeId="node-0x03104420">
+  <item nodeId="node-0x02B04B20">
     <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">&#x000A;Hallway0_w2&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <played>NO</played>
-    <changed>NO</changed>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x03104490"/>
-      <child nodeId="node-0x03104500"/>
+      <child nodeId="node-0x02B04B90"/>
+      <child nodeId="node-0x02B04C00"/>
+      <child nodeId="node-0x02B16FF8"/>
     </children>
   </item>
-  <item nodeId="node-0x03104490">
+  <item nodeId="node-0x02B04B90">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w3&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -98,7 +99,7 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x03104500">
+  <item nodeId="node-0x02B04C00">
     <command xml:space="preserve">gi w</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -106,10 +107,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x031045F0"/>
+      <child nodeId="node-0x02B04CF0"/>
     </children>
   </item>
-  <item nodeId="node-0x031045F0">
+  <item nodeId="node-0x02B04CF0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w3&#x000A;south: Raum 052 &#x000A;north: Raum 059&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -117,10 +118,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x03104660"/>
+      <child nodeId="node-0x02B0FF40"/>
     </children>
   </item>
-  <item nodeId="node-0x03104660">
+  <item nodeId="node-0x02B0FF40">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">&#x000A;Hallway0_w2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -128,7 +129,26 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x031046D0">
+  <item nodeId="node-0x02B16FF8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Hallway0_w1&#x000A;south: 051 Labor &#x000A;north: Treppe EG&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02B17B58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02B17B58">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Hallway0_w2&#x000A;north: WC m&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02B0FFB0">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">&#x000A;051 Labor&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -136,10 +156,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EEF8"/>
+      <child nodeId="node-0x02B104A8"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EEF8">
+  <item nodeId="node-0x02B104A8">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">&#x000A;Hallway0_w1&#x000A;south: 051 Labor &#x000A;north: Treppe EG_w&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -147,10 +167,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EE88"/>
+      <child nodeId="node-0x02B10748"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EE88">
+  <item nodeId="node-0x02B10748">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w2&#x000A;north: WC m&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -158,10 +178,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310F128"/>
+      <child nodeId="node-0x02B10518"/>
     </children>
   </item>
-  <item nodeId="node-0x0310F128">
+  <item nodeId="node-0x02B10518">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w3&#x000A;south: Raum 052 &#x000A;north: Raum 059&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -169,10 +189,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EB78"/>
+      <child nodeId="node-0x02B102E8"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EB78">
+  <item nodeId="node-0x02B102E8">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w4&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -180,10 +200,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EF68"/>
+      <child nodeId="node-0x02B10668"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EF68">
+  <item nodeId="node-0x02B10668">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -191,10 +211,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EC58"/>
+      <child nodeId="node-0x02B106D8"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EC58">
+  <item nodeId="node-0x02B106D8">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">&#x000A;Hallway0_w3&#x000A;south: Raum 052 &#x000A;north: Raum 059&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -202,7 +222,7 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0310EDA8">
+  <item nodeId="node-0x02B107B8">
     <command xml:space="preserve">go around</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -210,10 +230,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310F0B8"/>
+      <child nodeId="node-0x02B10588"/>
     </children>
   </item>
-  <item nodeId="node-0x0310F0B8">
+  <item nodeId="node-0x02B10588">
     <command xml:space="preserve">go Hallway0_w1</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -221,10 +241,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310F048"/>
+      <child nodeId="node-0x02B10438"/>
     </children>
   </item>
-  <item nodeId="node-0x0310F048">
+  <item nodeId="node-0x02B10438">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">&#x000A;Hallway0_w1&#x000A;south: 051 Labor &#x000A;north: Treppe EG_w&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -232,10 +252,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310F198"/>
+      <child nodeId="node-0x02B105F8"/>
     </children>
   </item>
-  <item nodeId="node-0x0310F198">
+  <item nodeId="node-0x02B105F8">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w2&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -243,7 +263,7 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
-  <item nodeId="node-0x0310F208">
+  <item nodeId="node-0x02B10048">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -251,10 +271,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EA98"/>
+      <child nodeId="node-0x02B10128"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EA98">
+  <item nodeId="node-0x02B10128">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">&#x000A;Hallway0_w1&#x000A;south: 051 Labor &#x000A;north: Treppe EG_w&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -262,10 +282,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310ECC8"/>
+      <child nodeId="node-0x02B10358"/>
     </children>
   </item>
-  <item nodeId="node-0x0310ECC8">
+  <item nodeId="node-0x02B10358">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w2&#x000A;north: WC m&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -273,10 +293,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310ED38"/>
+      <child nodeId="node-0x02B10198"/>
     </children>
   </item>
-  <item nodeId="node-0x0310ED38">
+  <item nodeId="node-0x02B10198">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w3&#x000A;south: Raum 052 &#x000A;north: Raum 059&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -284,10 +304,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EB08"/>
+      <child nodeId="node-0x02B100B8"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EB08">
+  <item nodeId="node-0x02B100B8">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w4&#x000A;south: 053 Labor &#x000A;north: Raum 058&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -295,10 +315,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EBE8"/>
+      <child nodeId="node-0x02B10208"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EBE8">
+  <item nodeId="node-0x02B10208">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w5&#x000A;south: Raum 054 &#x000A;north: 057 Labor&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -306,10 +326,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EE18"/>
+      <child nodeId="node-0x02B10278"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EE18">
+  <item nodeId="node-0x02B10278">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">&#x000A;Hallway0_w6&#x000A; HAUPTFLUR. Enth&#x00E4;lt Kartenaufladeger&#x00E4;t &amp; Kopierer&#x000A;south: 055 Labor &amp; 056 Labor&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -317,10 +337,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x0310EFD8"/>
+      <child nodeId="node-0x02B103C8"/>
     </children>
   </item>
-  <item nodeId="node-0x0310EFD8">
+  <item nodeId="node-0x02B103C8">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -328,10 +348,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x031168A0"/>
+      <child nodeId="node-0x02B17458"/>
     </children>
   </item>
-  <item nodeId="node-0x031168A0">
+  <item nodeId="node-0x02B17458">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">&#x000A;Hallway0_w7&#x000A;east: WC m &#x000A;west: Raum 074&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -339,10 +359,10 @@
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
-      <child nodeId="node-0x031160C0"/>
+      <child nodeId="node-0x02B174C8"/>
     </children>
   </item>
-  <item nodeId="node-0x031160C0">
+  <item nodeId="node-0x02B174C8">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">&#x000A;WC0_w2&#x000A;WC (m)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>

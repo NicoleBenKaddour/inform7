@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Youta\Documents\Inform\Projects\inform7\Am_Exer.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\GarreltBecker\Documents\Inform\Projects\inform7\Am_Exer.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\Youta\Documents\Inform\Projects\inform7\Am_Exer.inform"
-release to "C:\Users\Youta\Documents\Inform\Projects\inform7\Am_Exer.materials\Release"
+project folder "C:\Users\GarreltBecker\Documents\Inform\Projects\inform7\Am_Exer.inform"
+release to "C:\Users\GarreltBecker\Documents\Inform\Projects\inform7\Am_Exer.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Am_Exer.gblorb"
-storyfile "C:\Users\Youta\Documents\Inform\Projects\inform7\Am_Exer.inform\Build\output.ulx" include
-ifiction "C:\Users\Youta\Documents\Inform\Projects\inform7\Am_Exer.inform\Metadata.iFiction" include
+storyfile "C:\Users\GarreltBecker\Documents\Inform\Projects\inform7\Am_Exer.inform\Build\output.ulx" include
+ifiction "C:\Users\GarreltBecker\Documents\Inform\Projects\inform7\Am_Exer.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 
